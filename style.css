@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&display=swap");
+
+body {
+    background-image: url(./Assets/6.\ Fondo.PNG);
+    padding: 0 3%;
+}
+
+h1 {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: 4em;
+}
+
+nav {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: 1em;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    margin: -1% -4%;
+    display: flex;
+}
+
+.logo {
+    height: 3em;
+    margin-top: 00.8em;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 10px 5px 5px 5px (0, 0, 0, 0.096);
+    border-radius: 40px;
+    align-items: center;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: 1em;
+    position: sticky;
+}
+
+.header img {
+    width: 41%;
+    margin: 2%;
+    justify-content: left;
+}
+
+.header .headerTexto {
+    flex-direction: column;
+    display: flex;
+    margin: 0% 5%;
+    background-color: white;
+    box-shadow: 10px 5px 5px 5px (0, 0, 0, 0.096);
+    border-radius: 40px;
+    align-items: center;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: 1.1em;
+    position: sticky;
+}
+
+.ingredientes {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: 1.1em;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    margin: 2% 0%;
+    box-shadow: 10px 5px 5px 5px (0, 0, 0, 0.096);
+    border-radius: 40px;
+    align-items: center;
+    position: sticky;
+}
+
+.pasos {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: 1.1em;
+    display: flex;
+    background-color: white;
+    padding: 2%;
+    justify-content: left;
+    flex-direction: column;
+    margin: 2% 0%;
+    box-shadow: 10px 5px 5px 5px (0, 0, 0, 0.096);
+    border-radius: 40px;
+    align-items: center;
+    position: sticky;
+}
+
+.pasos p {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: 1em;
+    margin: 2%;
+    justify-content: left;
+}
+
+.pasos img {
+    flex-direction: row;
+    width: 322px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px 5px (0, 0, 0, 0.226);
+    margin-left: 440px;
+}
+
+.copy {
+    padding: 1%;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: 2em;
+    margin: auto;
+}
+
+.copy a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.copy a:hover {
+    color: white;
+}
